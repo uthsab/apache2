@@ -54,6 +54,10 @@ jobs:
           - 'ports'
           - 'module-template'
           - 'mod-php'
+          - 'pkg-name'
+        include:
+          - os: centos-7
+            suite: pkg-name
       fail-fast: false
 
     steps:
